@@ -2,4 +2,5 @@ footer section a img {
   position: absolute; }
 
 div img {
-  position: absolute; }
+  position: absolute;
+  top: 0px; }

@@ -4,11 +4,10 @@ $color_stexto: #50ff76;
 $titulo: 'Permanent Marker', Arial, Helvetica, sans-serif;
 $parrafo: 'Libre Baskerville', serif;
 
+//general
 $spacing: 8px;
 
 //mixins
-
 @mixin size {
     height: 2em;
-
 }
