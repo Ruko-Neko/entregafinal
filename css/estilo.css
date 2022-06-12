@@ -1,6 +1,24 @@
 footer section a img {
-  position: absolute; }
-
-div img {
   position: absolute;
-  top: 0px; }
+  max-height: 60mm; }
+
+div a img {
+  max-width: 600px;
+  max-height: 500px; }
+
+div a .perfil {
+  max-width: 350px;
+  max-height: 350px;
+  position: absolute center; }
+
+div a .backgruond1 {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+div a .backgruond2 {
+  position: relative; }
+
+body {
+  height: 1024px;
+  width: 1044px; }

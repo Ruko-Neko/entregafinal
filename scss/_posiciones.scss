@@ -1,0 +1,38 @@
+footer {
+    section{
+        a{
+           img{ 
+                position: absolute;
+                max-height: 60mm;
+            }
+        }
+    }
+}
+
+div {
+    a {
+        img {
+            max-width: 600px;
+            max-height: 500px;
+        }
+        .perfil {
+            max-width: 350px;
+            max-height: 350px;
+            position: absolute center;
+        }
+        .backgruond1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .backgruond2 {
+            position: relative;
+        }
+    }
+}
+
+
+body {
+    height: 1024px;
+    width: 1044px;
+}
