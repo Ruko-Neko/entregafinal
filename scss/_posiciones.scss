@@ -1,10 +1,9 @@
 .body {
     display: grid;
-    grid-template-rows: auto ; 
+    grid-template-areas: "body" "footer" ; 
 
     footer {
-        display: grid;
-        grid-template-columns: auto 160px auto;
+        grid-area: "footer";
         section{            
             ul{
                 display: flex;
@@ -23,7 +22,7 @@
     }
 
     div {
-        grid-area: body;
+        grid-area: "body";
         a {        
             .perfil {
                 max-width: 300px;
