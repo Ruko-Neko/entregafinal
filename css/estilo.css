@@ -1,24 +1,39 @@
-footer section a img {
-  position: absolute;
-  max-height: 60mm; }
-
-div a img {
-  max-width: 600px;
-  max-height: 500px; }
-
-div a .perfil {
-  max-width: 350px;
-  max-height: 350px;
-  position: absolute center; }
-
-div a .backgruond1 {
-  position: absolute;
-  top: 0px;
-  left: 0px; }
-
-div a .backgruond2 {
-  position: relative; }
-
-body {
-  height: 1024px;
-  width: 1044px; }
+.body {
+  display: grid;
+  grid-template-rows: auto; }
+  .body footer {
+    display: grid;
+    grid-template-columns: auto 160px auto; }
+    .body footer section ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none; }
+      .body footer section ul li a img {
+        height: 48px; }
+  .body div {
+    grid-area: body; }
+    .body div a .perfil {
+      max-width: 300px;
+      position: absolute;
+      top: 130px;
+      left: 510px; }
+    .body div a img {
+      max-width: 600px;
+      height: 280px; }
+    .body div a .background1 {
+      position: absolute;
+      left: 0px;
+      top: 0px; }
+    .body div a .background2 {
+      position: absolute;
+      top: 0px;
+      right: 0px; }
+    .body div a .background4 {
+      position: absolute;
+      left: 0px;
+      bottom: 0px; }
+    .body div a .background3 {
+      position: absolute;
+      bottom: 0px;
+      right: 0px; }

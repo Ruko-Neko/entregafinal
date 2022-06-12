@@ -1,38 +1,62 @@
-footer {
-    section{
-        a{
-           img{ 
+.body {
+    display: grid;
+    grid-template-rows: auto ; 
+
+    footer {
+        display: grid;
+        grid-template-columns: auto 160px auto;
+        section{            
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                list-style: none;
+                li{
+                    a{
+                        img{                 
+                                height: $spacing*6;                
+                            }
+                    }
+                }            
+            }    
+        }
+    }
+
+    div {
+        grid-area: body;
+        a {        
+            .perfil {
+                max-width: 300px;
                 position: absolute;
-                max-height: 60mm;
+                top: 130px;
+                left: 510px;
+            }
+            img{
+                max-width: 600px;
+                height: 280px;
+            }
+            .background1 {
+                position: absolute;
+                left: 0px;
+                top: 0px;   
+            }
+            .background2 {                    
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+            .background4 {
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+
+            }
+            .background3 {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
             }
         }
     }
 }
 
-div {
-    a {
-        img {
-            max-width: 600px;
-            max-height: 500px;
-        }
-        .perfil {
-            max-width: 350px;
-            max-height: 350px;
-            position: absolute center;
-        }
-        .backgruond1 {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-        }
-        .backgruond2 {
-            position: relative;
-        }
-    }
-}
-
-
-body {
-    height: 1024px;
-    width: 1044px;
-}
