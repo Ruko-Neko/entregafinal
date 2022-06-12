@@ -1,14 +1,14 @@
 .body {
-    display: grid;
-    grid-template-areas: "body" "footer" ; 
+ 
 
     footer {
-        grid-area: "footer";
+        position: absolute;
+        bottom: 0px;
+        left: 525px;
         section{            
             ul{
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
                 list-style: none;
                 li{
                     a{
@@ -21,8 +21,8 @@
         }
     }
 
-    div {
-        grid-area: "body";
+    section {
+        
         a {        
             .perfil {
                 max-width: 300px;

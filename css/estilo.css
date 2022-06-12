@@ -1,38 +1,40 @@
-.body {
-  display: grid;
-  grid-template-areas: "body" "footer"; }
-  .body footer {
-    grid-area: "footer"; }
-    .body footer section ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      list-style: none; }
-      .body footer section ul li a img {
-        height: 48px; }
-  .body div {
-    grid-area: "body"; }
-    .body div a .perfil {
-      max-width: 300px;
-      position: absolute;
-      top: 130px;
-      left: 510px; }
-    .body div a img {
-      max-width: 600px;
-      height: 280px; }
-    .body div a .background1 {
-      position: absolute;
-      left: 0px;
-      top: 0px; }
-    .body div a .background2 {
-      position: absolute;
-      top: 0px;
-      right: 0px; }
-    .body div a .background4 {
-      position: absolute;
-      left: 0px;
-      bottom: 0px; }
-    .body div a .background3 {
-      position: absolute;
-      bottom: 0px;
-      right: 0px; }
+.body footer {
+  position: absolute;
+  bottom: 0px;
+  left: 525px; }
+  .body footer section ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; }
+    .body footer section ul li a img {
+      height: 48px; }
+
+.body section a .perfil {
+  max-width: 300px;
+  position: absolute;
+  top: 130px;
+  left: 510px; }
+
+.body section a img {
+  max-width: 600px;
+  height: 280px; }
+
+.body section a .background1 {
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+.body section a .background2 {
+  position: absolute;
+  top: 0px;
+  right: 0px; }
+
+.body section a .background4 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px; }
+
+.body section a .background3 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px; }
