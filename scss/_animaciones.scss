@@ -1,0 +1,27 @@
+section{
+    a{
+        img:hover{
+            transform: scale(1.4);
+        }
+        .background1:hover{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        }
+        .background2:hover{
+            position: absolute;
+            top: 40px;
+            right: 103px;
+        }
+        .background3:hover{
+            position: absolute;
+            bottom: 58px;
+            right: 57px;
+        }
+        .background4:hover{
+            position: absolute;
+            bottom: 58px;
+            left: 40px;
+        }
+    }
+}
