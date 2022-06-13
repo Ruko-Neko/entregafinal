@@ -1,0 +1,25 @@
+body {
+    main{
+        margin-top: 10px;
+        div{
+            img{
+                max-width: 300px;
+            }
+        }
+    }
+}
+
+
+@media  screen and (min-width:768px) {
+
+    body {
+        main{
+            margin-top: 20px;
+            div{
+                img{
+                    max-width: 350px;
+                }
+            }
+        }
+    }
+}    
