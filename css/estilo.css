@@ -88,10 +88,10 @@ footer {
 body {
   background-color: #88e688; }
   body div main section {
-    margin: 10px 30px 10px 30px; }
+    margin: 10px 30px 10px 30px;
+    align-items: center; }
     body div main section img {
       margin: 10px 15px 10px 10px;
-      height: 150px;
       text-align: center; }
     body div main section div {
       text-align: center; }
