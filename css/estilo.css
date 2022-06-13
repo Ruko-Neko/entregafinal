@@ -127,12 +127,12 @@ body {
       margin-left: 15px; } }
 
 .body {
-  width: 100%; }
+  width: 318px; }
   .body main {
     margin-top: 5px; }
     .body main div img {
       max-width: 280px;
-      margin-top: 0px;
+      margin-top: 5px;
       margin-right: 0px;
       margin-bottom: 0px;
       margin-left: 0px; }
@@ -143,4 +143,8 @@ body {
     .body main {
       margin-top: 20px; }
       .body main div img {
-        max-width: 300px; } }
+        max-width: 300px;
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px; } }
