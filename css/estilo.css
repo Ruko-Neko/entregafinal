@@ -131,7 +131,11 @@ body {
   .body main {
     margin-top: 5px; }
     .body main div img {
-      max-width: 280px; }
+      max-width: 280px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px; }
 
 @media screen and (min-width: 768px) {
   .body {
@@ -139,4 +143,4 @@ body {
     .body main {
       margin-top: 20px; }
       .body main div img {
-        max-width: 350px; } }
+        max-width: 300px; } }
