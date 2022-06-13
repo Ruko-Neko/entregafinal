@@ -125,3 +125,18 @@ body {
       height: 300px; }
     body div main section div {
       margin-left: 15px; } }
+
+.body {
+  width: 100%; }
+  .body main {
+    margin-top: 5px; }
+    .body main div img {
+      max-width: 280px; }
+
+@media screen and (min-width: 768px) {
+  .body {
+    max-width: 100%; }
+    .body main {
+      margin-top: 20px; }
+      .body main div img {
+        max-width: 350px; } }
