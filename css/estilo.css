@@ -92,7 +92,8 @@ body {
     align-items: center; }
     body div main section img {
       margin: 10px 15px 10px 10px;
-      text-align: center; }
+      text-align: center;
+      max-width: 100%; }
     body div main section div {
       text-align: center; }
       body div main section div h4 {
@@ -115,16 +116,18 @@ body {
     height: 2em; }
 
 @media screen and (min-width: 768px) {
-  body div main section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 20px 30px 5px 30px; }
-    body div main section img {
-      margin-right: 20px;
-      height: 300px; }
-    body div main section div {
-      margin-left: 15px; } }
+  body {
+    width: 768px; }
+    body div main section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 20px 30px 5px 30px; }
+      body div main section img {
+        margin-right: 20px;
+        height: 300px; }
+      body div main section div {
+        margin-left: 15px; } }
 
 .body {
   width: 318px; }
