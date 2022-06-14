@@ -84,73 +84,68 @@ footer {
       footer div section a .logo {
         height: 48px; }
 
-/*header mi*/
+/*mi*/
 body {
   background-color: #88e688; }
-  body div main section {
+  body main section {
     margin: 10px 30px 10px 30px;
     align-items: center; }
-    body div main section img {
+    body main section .foto-perfil {
       margin: 10px 15px 10px 10px;
       text-align: center;
       max-width: 100%; }
-    body div main section div {
-      text-align: center; }
-      body div main section div h4 {
+    body main section div {
+      text-align: center;
+      color: #000000; }
+      body main section div h4 {
         font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
         height: 2em;
         font-weight: bold; }
-      body div main section div p {
+      body main section div p {
         font-family: "Libre Baskerville", serif; }
-        body div main section div p span {
+        body main section div p span {
           font-weight: bold; }
-  body div header nav div div {
-    text-align: center; }
-    body div header nav div div a {
-      font-family: "Libre Baskerville", serif; }
-  body div header nav div a h1 {
+  body header nav div a h1 {
     margin-top: 45px;
     margin-left: 15px;
     font-weight: bold;
     font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
     height: 2em; }
+  body header nav div div ul li a {
+    font-family: "Libre Baskerville", serif; }
 
 @media screen and (min-width: 768px) {
   body {
     width: 768px; }
-    body div main section {
+    body main section {
       display: flex;
       flex-direction: row;
       align-items: center;
       margin: 20px 30px 5px 30px; }
-      body div main section img {
+      body main section .foto-perfil {
         margin-right: 20px;
         height: 300px; }
-      body div main section div {
+      body main section div {
         margin-left: 15px; } }
 
-.body {
-  width: 318px; }
-  .body main {
-    margin-top: 5px; }
-    .body main div img {
-      max-width: 280px;
+main {
+  margin-top: 5px; }
+  main div img {
+    max-width: 280px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px; }
+
+@media screen and (min-width: 768px) {
+  main section {
+    margin-top: 20px; }
+    main section div img {
+      max-width: 300px;
       margin-top: 5px;
       margin-right: 0px;
       margin-bottom: 0px;
-      margin-left: 0px; }
-
-@media screen and (min-width: 768px) {
-  .body {
-    max-width: 768px; }
-    .body main {
-      margin-top: 20px; }
-      .body main div img {
-        max-width: 300px;
-        margin-top: 5px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px; } }
+      margin-left: 0px; } }
 
 /*main2d*/
 .main2d .main-2d .videos2d {
@@ -202,3 +197,7 @@ body {
       margin: 0%; }
     .main2d .main-2d div img {
       margin: 20px 5px 5px 1px; } }
+
+@media screen and (min-width: 1024px) {
+  .body2d {
+    max-width: 1024px; } }
