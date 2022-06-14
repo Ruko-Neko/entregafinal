@@ -1,45 +1,89 @@
-/*footer index*/
-.body {
-  /*body index*/ }
-  .body .footer {
-    position: absolute;
-    bottom: 0px;
-    left: 525px; }
-    .body .footer section ul {
-      display: flex;
-      flex-direction: row;
-      list-style: none; }
-      .body .footer section ul li a img {
-        height: 48px; }
-  .body section a .perfil {
-    max-width: 300px;
-    position: absolute;
-    top: 130px;
-    left: 510px; }
-  .body section a img {
-    max-width: 600px;
-    height: 280px;
-    transition: all 300ms; }
-  .body section a .background1 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    transition: all 300ms; }
-  .body section a .background2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transition: all 300ms; }
-  .body section a .background4 {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    transition: all 300ms; }
-  .body section a .background3 {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    transition: all 300ms; }
+section a .perfil {
+  max-width: 150px;
+  max-height: 150px;
+  position: absolute;
+  top: 100px;
+  left: 100px; }
+
+section a img {
+  max-width: 100px;
+  height: 280px; }
+
+section a .background1 {
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+section a .background2 {
+  position: absolute;
+  top: 0px;
+  right: 0px; }
+
+section a .background4 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px; }
+
+section a .background3 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px; }
+
+.body .footer {
+  position: absolute;
+  bottom: 0px;
+  left: 50%; }
+  .body .footer section ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; }
+    .body .footer section ul li a img {
+      height: 32px; }
+
+@media screen and (min-width: 1024px) {
+  /*footer index*/
+  .body {
+    /*body index*/ }
+    .body .footer {
+      position: absolute;
+      bottom: 0px;
+      left: 525px; }
+      .body .footer section ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none; }
+        .body .footer section ul li a img {
+          height: 48px; }
+    .body section a .perfil {
+      max-width: 300px;
+      max-height: 300px;
+      position: absolute;
+      top: 130px;
+      left: 510px; }
+    .body section a img {
+      max-width: 600px;
+      height: 280px;
+      transition: all 300ms; }
+    .body section a .background1 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      transition: all 300ms; }
+    .body section a .background2 {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      transition: all 300ms; }
+    .body section a .background4 {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      transition: all 300ms; }
+    .body section a .background3 {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      transition: all 300ms; } }
 
 /*animaciones index*/
 section a img:hover {
