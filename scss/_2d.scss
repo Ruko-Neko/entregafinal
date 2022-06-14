@@ -1,0 +1,62 @@
+/*main2d*/
+
+main {
+    section{
+        section{
+            width: 100%;
+            div{
+                max-width: 100%;
+                p{
+                    font-family: $parrafo;
+                }
+            }
+            div{
+                max-width: 100%;
+                p{
+                    font-family: $parrafo;
+                }
+            }
+        }
+        div{
+            width: 100%;
+            p{
+                font-family: $parrafo;
+            }
+            img {
+                max-width: 100%;
+            }
+            
+        }
+    }
+}
+
+
+
+@media  screen and (min-width:768px) {
+/*main2d*/
+.main-2d{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: max-content;
+}
+.videos2d {
+    margin: 20px 5px 20px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.ti2d{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0%;
+}
+.video1-2d{
+    height: 100%;
+    margin-bottom: 20px;
+}
+.video2-2d{
+    height: 100%;   
+}
+.img2d {
+    margin: 20px 5px 5px 1px;
+}
+}
