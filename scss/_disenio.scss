@@ -1,0 +1,23 @@
+body{
+    main{
+        .main-dis{
+            display: grid;
+
+            grid-template-areas: "proto marca"
+            "proto marca"; 
+            
+            .prototipo{
+                display: flex;
+                flex-direction: column;
+
+                grid-area: "proto";
+            }
+            .disenio-marca {
+                display: flex;
+                flex-direction: column;
+
+                grid-area: "marca";
+            }
+        }
+    }
+}
