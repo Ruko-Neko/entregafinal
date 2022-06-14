@@ -151,3 +151,54 @@ body {
         margin-right: 0px;
         margin-bottom: 0px;
         margin-left: 0px; } }
+
+/*main2d*/
+.main2d .main-2d .videos2d {
+  width: 100%;
+  margin-left: 0px; }
+  .main2d .main-2d .videos2d .video1-2d {
+    max-width: 100%; }
+    .main2d .main-2d .videos2d .video1-2d .ti2d {
+      font-family: "Libre Baskerville", serif; }
+  .main2d .main-2d .videos2d .video2-2d {
+    max-width: 100%; }
+    .main2d .main-2d .videos2d .video2-2d .ti2d {
+      font-family: "Libre Baskerville", serif; }
+
+.main2d .main-2d .img2d {
+  width: 100%; }
+  .main2d .main-2d .img2d .ti2d {
+    font-family: "Libre Baskerville", serif; }
+  .main2d .main-2d .img2d img {
+    max-width: 100%; }
+
+@media screen and (min-width: 768px) {
+  /*main2d*/
+  .main2d .main-2d {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: max-content; }
+    .main2d .main-2d .videos2d {
+      margin: 20px 5px 20px 0px;
+      display: flex;
+      flex-direction: column; }
+      .main2d .main-2d .videos2d .video1-2d {
+        height: 100%;
+        margin-bottom: 20px; }
+        .main2d .main-2d .videos2d .video1-2d .ti2d {
+          font-size: 12px;
+          font-weight: bold;
+          margin: 0%; }
+      .main2d .main-2d .videos2d .video2-2d {
+        height: 100%;
+        margin-bottom: 20px; }
+        .main2d .main-2d .videos2d .video2-2d .ti2d {
+          font-size: 12px;
+          font-weight: bold;
+          margin: 0%; }
+    .main2d .main-2d div .ti2d {
+      font-size: 12px;
+      font-weight: bold;
+      margin: 0%; }
+    .main2d .main-2d div img {
+      margin: 20px 5px 5px 1px; } }

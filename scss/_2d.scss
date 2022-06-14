@@ -1,25 +1,25 @@
 /*main2d*/
-
-main {
-    section{
-        section{
+.main2d {
+    .main-2d{
+        .videos2d{
             width: 100%;
-            div{
+            margin-left: 0px;
+            .video1-2d{
                 max-width: 100%;
-                p{
+                .ti2d{
                     font-family: $parrafo;
                 }
             }
-            div{
+            .video2-2d{
                 max-width: 100%;
-                p{
+                .ti2d{
                     font-family: $parrafo;
                 }
             }
         }
-        div{
+        .img2d{
             width: 100%;
-            p{
+            .ti2d{
                 font-family: $parrafo;
             }
             img {
@@ -34,29 +34,46 @@ main {
 
 @media  screen and (min-width:768px) {
 /*main2d*/
-.main-2d{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: max-content;
+.main2d{
+    .main-2d{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: max-content;
+        .videos2d{
+            margin: 20px 5px 20px 0px;
+            display: flex;
+            flex-direction: column;
+            
+            .video1-2d{
+                .ti2d{
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin: 0%;
+                }
+                height: 100%;
+                margin-bottom: 20px;
+            }
+            .video2-2d{
+                .ti2d{
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin: 0%;
+                }
+                height: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        div{
+            .ti2d{
+                font-size: 12px;
+                    font-weight: bold;
+                    margin: 0%;
+            }
+            img{
+                margin: 20px 5px 5px 1px;
+            }
+        }
+    }
 }
-.videos2d {
-    margin: 20px 5px 20px 5px;
-    display: flex;
-    flex-direction: column;
-}
-.ti2d{
-    font-size: 12px;
-    font-weight: bold;
-    margin: 0%;
-}
-.video1-2d{
-    height: 100%;
-    margin-bottom: 20px;
-}
-.video2-2d{
-    height: 100%;   
-}
-.img2d {
-    margin: 20px 5px 5px 1px;
-}
+
 }
