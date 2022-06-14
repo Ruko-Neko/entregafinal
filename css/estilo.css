@@ -139,7 +139,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .body {
-    max-width: 100%; }
+    max-width: 768px; }
     .body main {
       margin-top: 20px; }
       .body main div img {
